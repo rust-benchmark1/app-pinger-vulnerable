@@ -97,3 +97,14 @@ To secure it, escape or whitelist inputs, avoid direct shell execution, and pref
 ## License
 
 This project is released under the MIT License.
+
+
+
+# Vulnerabilities Overview
+
+## /src/main.rs
+**Example 1**  - CWE-78: Command Injection (Supported)
+
+Expected to be detected.
+- **Source:** Line 44
+- **Sink:** Line 53
